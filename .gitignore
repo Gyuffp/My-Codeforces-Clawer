@@ -1,0 +1,28 @@
+# 编译产物
+*.exe
+*.o
+
+# 缓存数据（JSON 缓存文件不提交）
+*_rating.json
+*_status.json
+
+# 生成的报告
+*_report.html
+index.html
+
+# 用户列表文件（含敏感信息的本地配置）
+users.txt
+
+# 第三方库
+lib/
+bin/
+
+# VS Code 本地配置
+.vscode/settings.json
+.vscode/c_cpp_properties.json
+
+# 计划文件
+.claude/
+
+# 测试发布目录
+release/
